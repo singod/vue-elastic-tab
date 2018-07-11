@@ -6,6 +6,7 @@
 
 ![image](https://github.com/webFirstDog/vue-elastic-tab/blob/master/src/assets/tupianfaguang.gif)
 ![image](https://github.com/webFirstDog/vue-elastic-tab/blob/master/src/assets/tupianfaguang1.gif)
+
 ## Build Setup
 
 ``` bash
@@ -17,4 +18,36 @@ npm run dev
 
 # build for production with minification 生产环境，上线打包
 npm run build
+```
+
+## Browser Support
+
+Mobile terminal
+
+## Quick Start
+```vue
+<template>
+  <div id="app">		
+    <vue-g-huitan
+      GDirection="x" 
+      :GNavName="li_array" 
+      :GNavLink="li_array_link"
+      GNavId="tanxinNav"
+      GBg="#5cadff" 
+      :GMaxWithY="100" 
+      :GElastic="150"></vue-g-huitan>
+  </div>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+      li_array: ["前面的","world","love","china"],
+      li_array_link: ["/hello","/world","/love","china"]
+    }
+  }
+}
+</script>
+
 ```
