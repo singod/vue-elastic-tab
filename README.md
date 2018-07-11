@@ -1,5 +1,5 @@
 # vue-elastic-tab
-
+> A Vue.js 2.0 Tab for Web.
 > 一个惯性回弹导航tab
 
 ![image](https://github.com/webFirstDog/vue-elastic-tab/blob/master/src/assets/tupianfaguang.gif)
