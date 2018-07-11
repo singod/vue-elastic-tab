@@ -2,7 +2,8 @@
 
 > 一个惯性回弹导航tab
 
-
+![image](https://github.com/webFirstDog/vue-elastic-tab/blob/master/src/assets/tupianfaguang.gif)
+![image](https://github.com/webFirstDog/vue-elastic-tab/blob/master/src/assets/tupianfaguang1.gif)
 ## Build Setup
 
 ``` bash
