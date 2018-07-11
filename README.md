@@ -24,6 +24,9 @@ npm run build
 
 Mobile terminal
 
+## Install
+
+
 ## Quick Start
 ```vue
 <template>
