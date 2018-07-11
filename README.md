@@ -26,6 +26,9 @@ Mobile terminal
 
 ## Install
 
+```bash
+npm install vue-elastic-tab -S
+```
 
 ## Quick Start
 ```vue
