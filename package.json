@@ -1,12 +1,12 @@
 {
-  "name": "vue-elastic-tab",
-  "description": "A Vue.js project",
-  "version": "1.0.1",
+  "name": "elastic-tab",
+  "description": "vue-elastic-tab",
+  "version": "1.0.6",
   "author": "gaoweichao <gaoweichaohn@163.com>",
   "license": "MIT",
   "private": false,
-	"main": "dist/vue-elastic-tab.js",
-	"repository": {
+  "main": "dist/vue-elastic-tab.js",
+  "repository": {
     "type": "git",
     "url": "https://github.com/webFirstDog/vue-elastic-tab"
   },
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "vue": "^2.5.11",
+    "vue-elastic-tab": "^1.0.5",
     "vue-router": "^3.0.1"
   },
   "browserslist": [
