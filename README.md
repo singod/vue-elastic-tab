@@ -60,3 +60,7 @@ export default {
 | GBg        | tab背景颜色                                     | String         | #ececec | GBg="#5cadff"             |
 | GMaxWithY  | tab最大宽度，GDirection="y"时起作用。（单位px） | Number         | -       | :GMaxWithY="100"          |
 |            |                                                 |                |         |                           |
+
+## license
+
+MIT
