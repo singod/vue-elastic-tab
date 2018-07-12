@@ -44,3 +44,15 @@ export default {
 </script>
 
 ```
+
+## API
+
+| 参数       | 介绍                                            | 类型           | 默认值  | 示例                      |
+| ---------- | ----------------------------------------------- | -------------- | ------- | ------------------------- |
+| GDirection | tab方向                                         | String         | y       | GDirection="x"            |
+| GNavName   | tab名                                           | Array（必须）  | -       | :GNavName="li_array"      |
+| GNavLink   | tab链接                                         | Array          | -       | :GNavLink="li_array_link" |
+| GNavId     | tab的ID                                         | String（必须） | g_navid | GNavId="tanxinNav"        |
+| GBg        | tab背景颜色                                     | String         | #ececec | GBg="#5cadff"             |
+| GMaxWithY  | tab最大宽度，GDirection="y"时起作用。（单位px） | Number         | -       | :GMaxWithY="100"          |
+|            |                                                 |                |         |                           |
