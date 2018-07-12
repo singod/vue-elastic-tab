@@ -54,10 +54,10 @@
                                 default: "y"
                         },
                         GNavName: {
-                                type: [Array, Object]
+                                type: [Array]
                         },
                         GNavLink: {
-                                type: [Array, Object]
+                                type: [Array]
                         },
                         GNavId: {
                                 type: String,
@@ -116,13 +116,19 @@
 								
                         },
                         touchstartX(e) {
+								
                                 e.stopPropagation();
                                 this.startFinger = e.changedTouches[0].clientX;
                                 this.nav.style.WebkitTransition = this.nav.style.transition = '';
                                 this.startX = this.translateX;
                                 this.lastTime = Date.now();
+								var slide_width = this.slide.clientWidth;
+								var nav_width = this.nav.offsetWidth
 
-                                this.maxWidth = this.nav.offsetWidth - this.slide.clientWidth;
+								if(nav_width < slide_width){
+									nav_width = slide_width
+								}
+                                this.maxWidth = nav_width - slide_width;
                         },
                         touchmoveX(e) {
                                 e.stopPropagation();
@@ -165,7 +171,6 @@
                         bindEvent(el) {
                                 this.slide = el;
                                 this.nav = el.firstElementChild || el.firstChild;
-
                                 el.addEventListener('touchstart', this.touchstartX, false)
                                 el.addEventListener('touchmove', this.touchmoveX, false)
                                 el.addEventListener('touchend', this.touchendX, false)
@@ -179,8 +184,14 @@
                                 this.nav.style.WebkitTransition = this.nav.style.transition = '';
                                 this.startY = this.translateY;
                                 this.lastTime = Date.now();
+								
+								var slide_height = this.slide.clientHeight;
+								var nav_height = this.nav.offsetHeight
 
-                                this.maxWidth = this.nav.offsetHeight - this.slide.clientHeight;
+								if(nav_height < slide_height){
+									nav_height = slide_height
+								}
+                                this.maxWidth = nav_height - slide_height;
                         },
                         touchmoveY(e) {
                                 e.stopPropagation();
