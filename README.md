@@ -19,6 +19,11 @@ npm install vue-elastic-tab -S
 
 ## Quick Start
 ```vue
+// main.js
+import vueElasticTab from 'vue-elastic-tab'
+Vue.use(vueElasticTab)
+
+// .vue
 <template>
   <div id="app">		
     <vue-g-huitan
