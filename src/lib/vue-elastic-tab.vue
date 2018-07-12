@@ -69,9 +69,6 @@
                         GBg: {
                                 type: String,
                                 default: "#ececec"
-                        },
-                        GElastic: {
-                                type: Number
                         }
                 },
                 data() {
