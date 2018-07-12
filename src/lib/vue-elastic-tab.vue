@@ -122,12 +122,12 @@
                                 this.nav.style.WebkitTransition = this.nav.style.transition = '';
                                 this.startX = this.translateX;
                                 this.lastTime = Date.now();
-								var slide_width = this.slide.clientWidth;
-								var nav_width = this.nav.offsetWidth
+                                var slide_width = this.slide.clientWidth;
+                                var nav_width = this.nav.offsetWidth
 
-								if(nav_width < slide_width){
-									nav_width = slide_width
-								}
+                                if(nav_width < slide_width){
+                                  nav_width = slide_width
+                                }
                                 this.maxWidth = nav_width - slide_width;
                         },
                         touchmoveX(e) {
@@ -185,12 +185,12 @@
                                 this.startY = this.translateY;
                                 this.lastTime = Date.now();
 								
-								var slide_height = this.slide.clientHeight;
-								var nav_height = this.nav.offsetHeight
+                                var slide_height = this.slide.clientHeight;
+                                var nav_height = this.nav.offsetHeight
 
-								if(nav_height < slide_height){
-									nav_height = slide_height
-								}
+                                if(nav_height < slide_height){
+                                  nav_height = slide_height
+                                }
                                 this.maxWidth = nav_height - slide_height;
                         },
                         touchmoveY(e) {
