@@ -27,8 +27,7 @@ npm install vue-elastic-tab -S
       :GNavLink="li_array_link"
       GNavId="tanxinNav"
       GBg="#5cadff" 
-      :GMaxWithY="100" 
-      :GElastic="150"></vue-g-huitan>
+      :GMaxWithY="100"></vue-g-huitan>
   </div>
 </template>
 
